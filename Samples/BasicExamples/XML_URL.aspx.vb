@@ -21,7 +21,7 @@ Partial Class Samples_BasicExamples_XML_URL
         ' For a head-start, we've kept this example very simple.
 
         ' Initialize chart - Column 3D Chart with data from Data/Data.json
-        Dim sales As New Chart("column3d", "myChart", "600", "350", "jsonurl", "../../Data/Data.xml")
+        Dim sales As New Chart("angulargauge", "myChart", "600", "350", "xmlurl", "../../Data/Data.xml")
         ' Render the chart
         Literal1.Text = sales.Render()
     End Sub
