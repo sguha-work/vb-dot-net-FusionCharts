@@ -84,9 +84,3 @@ Partial Class Samples_ArrayExample_CombinationXML
         Literal1.Text = sales.Render()
     End Sub
 End Class
-'=======================================================
-'Service provided by Telerik (www.telerik.com)
-'Conversion powered by NRefactory.
-'Twitter: @telerik
-'Facebook: facebook.com/telerik
-'=======================================================
