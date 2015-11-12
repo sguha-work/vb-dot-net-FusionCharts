@@ -12,7 +12,7 @@ Namespace FusionCharts.Charts
     ''' Contains static methods to render FusionCharts in the Page. 
     ''' </summary>
     Public Class Chart
-        Implements System.ICloneable
+        'Implements System.ICloneable
         Private __CONFIG__ As Hashtable = Nothing
         Private Shared __PARAMMAP__ As Hashtable = Nothing
 
@@ -457,7 +457,7 @@ Namespace FusionCharts.Charts
         ''' This method to set the data for the chart
         ''' </summary>
         ''' <param name="dataSource">Data for the chart</param>
-        ''' <param name="dataFormat">Data format. e.g. json, jsonurl, csv, xml, xmlurl</param>
+        ''' <param name="format">Data format. e.g. json, jsonurl, csv, xml, xmlurl</param>
         Public Sub SetData(dataSource As String, format As DataFormat)
             SetChartParameter("dataSource", dataSource)
             SetChartParameter("dataFormat", format.ToString())
