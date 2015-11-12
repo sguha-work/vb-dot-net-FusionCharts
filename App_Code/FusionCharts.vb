@@ -583,9 +583,6 @@ Namespace FusionCharts.Charts
 
 #End Region
 
-        Public Function Clone1() As Object Implements ICloneable.Clone
-
-        End Function
     End Class
 End Namespace
 
